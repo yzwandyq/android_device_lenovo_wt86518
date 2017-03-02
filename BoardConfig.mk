@@ -19,7 +19,6 @@ include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/lenovo/wt86518
 include $(DEVICE_PATH)/board/*.mk
-TARGET_BOARD_INFO_FILE := device/lenovo/wt86518/board-info.txt
 
 # inherit from the proprietary version
 -include vendor/lenovo/wt86518/BoardConfigVendor.mk

@@ -2,6 +2,11 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# Panel
+PRODUCT_PACKAGES += \
+    libjni_livedisplay \
+    pp_calib_data_booyi_OTM1287_720p_video_mode_dsi_panel.xml
+
 # Screen density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
