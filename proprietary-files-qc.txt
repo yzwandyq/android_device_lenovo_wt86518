@@ -37,54 +37,33 @@ lib/libcamera2ndk.so
 lib/libqomx_core.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so
-vendor/lib/libmmcamera_sp2508.so
 vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera_s5k5e2_olq5f19.so
-vendor/lib/libmmcamera_ov13850.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera_ov2680_5987fhq.so
-vendor/lib/libmmcamera_ov8858_q8v19w.so
-vendor/lib/libmmcamera_ov8865_q8v18a.so
-vendor/lib/libmmcamera_ov5670_q5v41b.so
-vendor/lib/libmmcamera2_wnr_module.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/liboemcamera.so
-vendor/lib/libmmcamera_wavelet_lib.so
-vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so
-vendor/lib/libmmcamera_mt9m114.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera_hdr_lib.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera_sony_imx219_eeprom.so
-vendor/lib/libmmcamera_ov2680_skuhf.so
-vendor/lib/libmmcamera_ov2680_cht852b.so
-vendor/lib/libmmcamera_truly_cm7700_eeprom.so
 vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera_imx219_q8n13a.so
-vendor/lib/libmmcamera_ov2680.so
-vendor/lib/libmmcamera2_vpe_module.so
-vendor/lib/libmmcamera_gc2355_8916.so
-vendor/lib/libmmcamera_ov8858.so
-vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so
-vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_pproc_modules.so
+-vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera2_vpe_module.so
+vendor/lib/libmmcamera2_wnr_module.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_hdr_lib.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_tintless_algo.so
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_wavelet_lib.so
 vendor/lib/libmmipl.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
+vendor/lib/libmmcamera_tuning.so
 
 # Camera actuator (seed-NRD90M)
 vendor/lib/libactuator_dw9714_13p1ba_camcorder.so
@@ -117,6 +96,10 @@ vendor/lib/libchromatix_imx219_q8n13a_default_video.so
 # Camera eeprom (seed-NRD90M)
 vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so
 vendor/lib/libmmcamera_truly_cm7700_eeprom.so
+vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so
+vendor/lib/libmmcamera_sony_imx219_eeprom.so
+vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so
+vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so
 
 # Camera firmware (seed-NRD90R)
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -129,11 +112,17 @@ vendor/lib/libmmcamera_mt9m114.so
 vendor/lib/libmmcamera_ov13850.so
 vendor/lib/libmmcamera_ov2680_5987fhq.so
 vendor/lib/libmmcamera_ov2680.so
-
 vendor/lib/libmmcamera_ov5670_q5v41b.so
 vendor/lib/libmmcamera_ov8858_q8v19w.so
 vendor/lib/libmmcamera_ov8858.so
 vendor/lib/libmmcamera_ov8865_q8v18a.so
+vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so
+vendor/lib/libmmcamera_sp2508.so
+vendor/lib/libmmcamera_s5k5e2_olq5f19.so
+vendor/lib/libmmcamera_ov2680_skuhf.so
+vendor/lib/libmmcamera_ov2680_cht852b.so
+vendor/lib/libmmcamera_imx219_q8n13a.so
+vendor/lib/libmmcamera_gc2355_8916.so
 
 # DRM (seed-NRD90R)
 bin/qseecomd
@@ -189,8 +178,6 @@ vendor/lib/libsc-a3xx.so
 # Graphics firmware (seed-NRD90R)
 etc/firmware/a300_pfp.fw
 etc/firmware/a300_pm4.fw
--vendor/firmware/a330_pfp.fw
--vendor/firmware/a330_pm4.fw
 
 # Media (crackling)
 lib/libOmxVdecHevc.so
